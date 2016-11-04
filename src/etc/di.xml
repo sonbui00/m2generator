@@ -9,7 +9,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="hello_world" xsi:type="object">Dylan\Generator\Command\ModuleGenerateCommand</item>
+                <item name="generator_helper" xsi:type="object">Dylan\Generator\Command\GenerateHelperCommand</item>
             </argument>
         </arguments>
     </type>
