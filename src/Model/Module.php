@@ -40,4 +40,12 @@ class Module implements ModuleInterface
     {
         return $this->name;
     }
+
+    /**
+     * @return string
+     */
+    public function getNamespace()
+    {
+        return str_replace('_', '\\', $this->name);
+    }
 }

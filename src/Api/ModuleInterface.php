@@ -15,4 +15,9 @@ interface ModuleInterface
      * @return string
      */
     public function getName();
+
+    /**
+     * @return string
+     */
+    public function getNamespace();
 }
